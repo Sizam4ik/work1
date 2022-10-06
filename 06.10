@@ -1,0 +1,106 @@
+Name:Ilan
+Surname:Glikman
+User:Admin
+Age:20
+
+Name:Saveliy
+Surname:Jakubov
+User:Admin
+Age:23
+
+Name:Dmitry
+Surname:Petrov
+User:User
+Age:34
+
+Name:Daniel
+Surname:Jesehin
+User:User
+Age:28
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8">
+  <title>User Information</title>
+ </head>
+ <body>
+  <form method="post" action="handler.php">
+   <p><textarea name="textarea" cols="40" rows="5">
+      Name:Ilan
+      Surname:Glikman
+      User:Admin
+      Age:20
+   </textarea></p>
+  </form>
+ </body>
+</html>
+
+<html lang="en">
+ <head>
+  <meta charset="utf-8">
+  <title>User Information</title>
+ </head>
+ <body>
+  <form method="post" action="handler.php">
+   <p><textarea name="textarea" cols="40" rows="5">
+      Name:Saveliy
+      Surname:Jakubov
+      User:Admin
+      Age:23
+   </textarea></p>
+  </form>
+ </body>
+</html>
+
+<html lang="en">
+ <head>
+  <meta charset="utf-8">
+  <title>User Information</title>
+ </head>
+ <body>
+  <form method="post" action="handler.php">
+   <p><textarea name="textarea" cols="40" rows="5">
+      Name:Dmitry
+      Surname:Petrov
+      User:User
+      Age:34
+   </textarea></p>
+  </form>
+ </body>
+</html>
+
+<html lang="en">
+ <head>
+  <meta charset="utf-8">
+  <title>User Information</title>
+ </head>
+ <body>
+  <form method="post" action="handler.php">
+   <p><textarea name="textarea" cols="40" rows="5">
+      Name:Daniel
+      Surname:Jesehin
+      User:User
+      Age:28
+   </textarea></p>
+  </form>
+ </body>
+</html>
+
+a = input('20');
+b = input('23');
+c = input('34');
+d = input('28');
+result = a + b/2
+def print(e'Age of administrators: {result}')
+result = c + d/2
+def print(f'Age of users: {result}')
+
+def print('Age of the youngest administrator {a} Age of the oldest administrator {b}')
+def print('Age of the youngest user {d} Age of the oldest user {c}')
+
+result = 1 * 4
+def print('Number of visitors to the site: {result}')
